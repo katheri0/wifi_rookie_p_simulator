@@ -1,0 +1,171 @@
+
+.form
+{
+    margin: auto;
+    margin-top: 160px;
+    background-color: #fff;
+    display: flex;
+    font-family: sans-serif;
+    padding: 16px;
+    max-width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 10px  15px 9px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05) ;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.form-title
+{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: #000;
+}
+
+.input-container
+{
+    position: relative;
+
+}
+
+.input-container input, .form button
+{
+    outline: none;
+    border: 1px solid #d0d3d7;
+    margin: 8px 0;
+
+}
+.input-container input
+{
+    background-color: #fff;
+    padding: 16px;
+    padding-right: 40px;
+    font-size: 14px;
+    line-height: 20px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+}
+.submit
+{
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(38, 38, 188);
+    color: #fff;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 8px;
+    text-transform: uppercase;
+
+}
+
+.signup
+{
+  color: gray;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+
+}
+.signup a
+{
+    text-decoration: underline;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+table td {
+    color: #000;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 4px 10px 0
+}
+
+
+
+td, th {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .2);
+    color: #fff
+}
+
+th {
+    text-align: center
+}
+
+thead th {
+    background-color: #2e3c5cdb
+}
+
+tbody tr:hover {
+    background-color: rgba(255, 255, 255, .3)
+}
+
+tbody td {
+    text-align: center
+}
+
+tbody td:hover:before {
+    content: "";
+    left: 0;
+    right: 0;
+    top: -9999px;
+    bottom: -9999px;
+    background-color: rgba(255, 255, 255, .2);
+    z-index: -1
+}
+
+
+.F,
+.class,
+.class1 {
+    margin: auto;
+    margin-top: 100px;
+    background-color: #fff;
+    font-family: sans-serif;
+    padding: 20px;
+    padding-top: 60px;
+    max-width: 50%;
+    width: 35%;
+    max-width: 800px; /* or whatever you prefer */
+    border-radius: 20px;
+    box-shadow: 0 10px 15px 11px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* General layout for center alignment */
+.s {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer fix */
+footer {
+    background-color: #f8f9fa;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    position: relative;
+    bottom: 0;
+}
+
+h3 {direction: rtl;  color:rgb(0, 61, 140);}
+h4,p {direction: rtl; }
